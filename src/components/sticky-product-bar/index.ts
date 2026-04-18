@@ -776,6 +776,8 @@ export default class StickyProductBar extends LitElement {
     }
 
   render() {
+    console.log(this.config?.date);
+    
     if (this.isHidden) {
       return html``;
     }
