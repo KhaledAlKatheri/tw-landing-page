@@ -14,6 +14,12 @@ export interface Product {
     amount: number;
   };
   sale_price: number;
+  sold_quantity: number;
+  rating: {
+    total: number;
+    count: number;
+    rate: number;
+  };
   regular_price: number;
   starting_price: number;
   quantity: number;

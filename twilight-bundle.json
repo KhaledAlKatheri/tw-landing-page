@@ -607,6 +607,16 @@
           "selected": [],
           "searchable": true,
           "multichoice": false
+        },
+        {
+          "id": "date",
+          "icon": "sicon-calendar",
+          "type": "string",
+          "format": "date",
+          "inputType": "date",
+          "label": "Date",
+          "required": true,
+          "value": "2025-07-15"
         }
       ]
     }
