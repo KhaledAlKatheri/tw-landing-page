@@ -628,6 +628,20 @@
             "image": "https://cdn.salla.network/images/themes/default/placeholder.jpg",
             "fields": [
                 {
+                    "id": "product",
+                    "icon": "sicon-keyboard_arrow_down",
+                    "type": "items",
+                    "label": "اختر المنتج",
+                    "placeholder": "البحث في قائمة المنتجات...",
+                    "format": "dropdown-list",
+                    "source": "products",
+                    "options": [],
+                    "required": true,
+                    "selected": [],
+                    "searchable": true,
+                    "multichoice": false
+                },
+                {
                     "id": "title",
                     "icon": "sicon-format-text-alt",
                     "type": "string",
